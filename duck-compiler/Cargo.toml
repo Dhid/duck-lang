@@ -1,0 +1,13 @@
+[package]
+name = "duck-compiler"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+duck-bytecode = { path = "../duck-bytecode" }
+duck-syntax = { path = "../duck-syntax" }
+displaydoc = "0.2"
+thiserror = "1.0"
+anyhow = "1.0"
